@@ -1,0 +1,117 @@
+*{
+    font-family: 'Montserrat', sans-serif; 
+    margin:0;
+    padding: 0;
+}
+.title1{
+    height: 25vh;
+    width: 100%;
+    background: rgb(255, 130, 85);
+    color: white;
+}
+.title1>h1{
+    font-size: 7vh;
+    text-align: center;
+    padding-top: 6vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    gap: 4vw;
+    margin: 7vh 1vw 0 4vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+form>textarea{
+    width: 38vw;
+    height: 11vh;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+h3{
+    font-size: 3vh;
+    font-weight: normal;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.box{
+    height: 5vh;
+    width: 38vw;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+form>button{
+    background: rgb(255, 130, 85);
+    width: 38vw;
+    height: 40px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+img{
+    height: 11vh;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.flexImg{
+    display: flex;
+    margin-top: 25px;
+}
+.info{
+    margin-left: 10px;
+    margin-top: 14px;
+}
+.name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.aboutUs{
+    margin-left: 20px;
+}
+@media screen and (max-width:660px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 80vw;
+        margin: 7vh 0 0 4vw;
+    }
+    form>textarea{
+    width: 80vw;
+    height: 11vh;
+    border-radius: 5px;
+    border: 1px black solid;
+    }
+    .box{
+    height: 5vh;
+    width: 80vw;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    border: 1px black solid;
+    }
+    form>button{
+    background: rgb(255, 130, 85);
+    width: 80vw;
+    height: 40px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    }
+    .aboutUs{
+        margin-top: 25px;
+        margin-left: 18px;
+    }
+}
+
+.logo1{
+    color: white;
+    margin-left: 35px;
+    font-size: 15px;
+    margin-top: 5px;
+}

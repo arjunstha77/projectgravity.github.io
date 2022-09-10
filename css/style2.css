@@ -1,0 +1,154 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: smooth;
+}
+.header{
+    background-color: rgb(41, 41, 169);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-decoration: none;
+}
+.img{
+    margin-left: 70px;
+}
+
+
+.navbar-menu{
+    margin: auto;
+    margin-right: 0;
+}
+.navbar-menu a{
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+
+.header li{
+    display: inline-block;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(41, 41, 169);
+}
+
+.dropdown li{
+    display: block;
+}
+
+.navbar-menu li:hover .dropdown{
+    display: block;
+    padding: 5px;
+    top: 50px;
+    width: 100px;
+}
+
+.dropdown a{
+    margin: -10px;
+    text-align: center;
+}
+
+.dropdown a:hover{
+    color: red;
+    transition: .3s;
+} 
+
+
+.content {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.content > #home_page > .container {
+    flex-direction: column;
+}
+
+#home_page {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+#home_page > .container > .subtitle {
+    position: absolute;
+    font-size: 30px;
+    width: 800px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-top: 250px;
+    margin-right: 24cm;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.096);
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#about_page {
+    height: 100vh;
+    background-color: #fff;
+}
+
+#about_page > .container {
+    flex-direction: column;
+}
+
+#about_page > .container > .title {
+    margin-top: 200px;
+}
+
+#about_page > P {
+    line-height: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.canvas {
+    position: fixed;
+    top: 0;
+    bottom: 200px;
+}
+
+
+#wrapper-canva {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #fff;
+    
+}
+
+
+
+
+.btn{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 7px;
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 31px;
+}
+.btn:hover{
+    background-color: rgb(255, 0, 174);
+}
